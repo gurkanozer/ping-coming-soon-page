@@ -59,7 +59,6 @@ main{
     .text{
         padding-top:0.6rem;
         padding-bottom: 2rem;
-        font-size:14px;
         font-weight: 600;
         opacity: 0.7;
     }
@@ -72,11 +71,11 @@ main{
             padding:0 0 0.5rem;
             .form-input{
                 width: 100%;
-                padding:0.5rem;
+                padding:0.7rem;
                 padding-left:1rem;
                 outline:none;
                 border:1px solid $color-secondary;
-                border-radius: 1rem;
+                border-radius: 1.5rem;
                 &::placeholder{
                     color:$color-primary;
                 }
@@ -100,7 +99,7 @@ main{
             }
         }
         @media screen and (min-width:576px){
-            width:60%;
+            width:80%;
             flex-direction: row;
             align-items: baseline;
             .notify-form-control{
@@ -111,6 +110,12 @@ main{
             .btn-notify{
                 width:30%;
             }
+        }
+    }
+    .illustration{
+        @media screen and(min-width:576px){
+            width:80%;
+            padding-bottom: 2rem;
         }
     }
 }
@@ -158,9 +163,9 @@ footer{
 }
 /**BUTTON*/
 .btn{
-    padding:0.5rem;
+    padding:0.7rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     cursor: pointer;
     color:#fff;
     background-color: $color-primary;
